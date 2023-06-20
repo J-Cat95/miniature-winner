@@ -10,7 +10,7 @@ let app = express();
 
 app.use(express.json());
 
-app.use("/"),express.static("public");
+app.use("/",express.static("public"));
 
 let port = process.env.PORT || 3001;
 
